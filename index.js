@@ -5,7 +5,7 @@ const io = new Server({
     origin: "*",
   },
 });
-
+console.log("Server is on...");
 io.on("connection", (socket) => {
   console.log(socket.id);
 
