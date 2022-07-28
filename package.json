@@ -1,0 +1,8 @@
+{
+    "name": "shout-out",
+    "version": "0.0.1",
+    "description": "A chat application",
+    "dependencies": {
+        "socket.io": "^4.5.1"
+    }
+}
