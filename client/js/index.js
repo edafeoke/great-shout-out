@@ -1,4 +1,4 @@
-const socket = io("https://fierce-river-57256.herokuapp.com:3000");
+const socket = io("https://fierce-river-57256.herokuapp.com:80/");
 
 socket.on("connect", () => {
     console.log(socket.id);
